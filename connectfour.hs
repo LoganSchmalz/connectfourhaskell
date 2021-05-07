@@ -94,7 +94,7 @@ play b p
       putStrLn (p1 : " wins!")
   | checkWin b == p2 = do
       printBoard b
-      putStrLn (p2: " wins!")
+      putStrLn (p2 : " wins!")
   | otherwise = do
       printBoard b
       putStrLn sep
